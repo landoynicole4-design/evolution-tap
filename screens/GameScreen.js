@@ -58,7 +58,7 @@ export default function GameScreen({ onGameOver }) {
         Animated.timing(zonePulse, {
           toValue: 1.0,
           duration: 600,
-          useNativeDriver: true,
+          useNativeDriver: true,     
         }),
       ])
     ).start()
