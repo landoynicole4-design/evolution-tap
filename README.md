@@ -98,7 +98,7 @@ eas build -p android --profile preview
 
 ## 👤 Author
 
-Built solo by **[Your Name]**
+Built solo by **[Nicole James S. Landoy]**
 
 - GitHub: [@yourusername](https://github.com/landoynicole4-design)
 
