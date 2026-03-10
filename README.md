@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+# 🧬 Evolution Tap
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> *Evolve or go extinct.*
 
-## Get started
+A fast-paced mobile game where you tap to evolve your species through 20 stages of life — from a single-celled microbe all the way to modern human. One wrong move and your species is gone.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 About the App
 
-2. Start the app
+**Evolution Tap** is a mobile game built with React Native and Expo. Players are challenged to tap at the right moment to evolve their creature to the next stage of life. The game features 20 unique evolutionary stages, each with real scientific names, fun facts, and historical time periods — making it as educational as it is addictive.
 
-   ```bash
-   npx expo start
-   ```
+When the game ends, players are shown a detailed results screen displaying their score, evolution progress, a creature fact card, and their best score — all wrapped in a polished, animated UI.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 🦠 20 evolutionary stages from Amoeba to Human
+- 💀 Animated game over screen with outcome-based theming
+- 📚 Educational creature cards with scientific names and fun facts
+- 📊 Evolution progress tracker with emoji stage grid
+- 🎉 Confetti burst animation on winning
+- 🔊 Sound effects and haptic feedback
+- 📸 Screenshot and share functionality
+- 🏆 High score tracking with "New Record" badge
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Expo Google Fonts](https://github.com/expo/google-fonts)
+- [Expo Haptics](https://docs.expo.dev/versions/latest/sdk/haptics/)
+- [Expo Media Library](https://docs.expo.dev/versions/latest/sdk/media-library/)
+- [react-native-view-shot](https://github.com/gre/react-native-view-shot)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js
+- Expo CLI
+- Expo Go app (for device testing)
+
+### Installation
 
 ```bash
-npm run reset-project
+# Clone the repo
+git clone https://github.com/yourusername/evolution-tap.git
+
+# Navigate into the project
+cd evolution-tap
+
+# Install dependencies
+npm install
+
+# Start the development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code with **Expo Go** on your phone to run the app instantly.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📦 Building the APK
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+# Install EAS CLI
+npm install -g eas-cli
 
-## Join the community
+# Login to Expo
+eas login
 
-Join our community of developers creating universal apps.
+# Build Android APK
+eas build -p android --profile preview
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🎮 How to Play
+
+1. Launch the app
+2. Tap the screen at the right moment to evolve
+3. Survive all 20 stages to win
+4. Miss the timing — your species goes extinct
+5. Check your results, learn about your creature, and try again
+
+---
+
+## 📸 Screenshots
+
+*Coming soon*
+
+---
+
+## 👤 Author
+
+Built solo by **[Your Name]**
+
+- GitHub: [@yourusername](https://github.com/landoynicole4-design)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
