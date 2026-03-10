@@ -15,7 +15,7 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.yourname.evolutiontap",
       "infoPlist": {
-        "UIRequiresFullScreen": true
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -31,8 +31,10 @@
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-haptics"
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "ff0564ff-e19d-4a9a-bb77-f9d8d395a469"
+      }
+    }
   }
 }
