@@ -1,5 +1,27 @@
 # 🧬 Evolution Tap
 
+Short reflection (300–500 words) answering:
+
+What was your game idea?
+
+Evolution Tap is a mobile game in which you tap to evolve your species to 20 different stages of life, from a tiny microbe to an omniscient species. Each stage has a bar that bounces left and right on the screen, and you need to tap at exactly the right time when it hits in the highlighted zone to move to the next stage. If you fail, your species goes extinct, and there are no retries or second chances.
+Each stage also comes with the real scientific name of your species, the time in which it lived, and some interesting fact about its biology, so you are also learning something as you play.
+
+There is also a mutation feature in which every 4th time you successfully tap, your zone is temporarily made larger, giving you a slight edge.
+
+The game has 4 screens: a loading screen, a home screen, a gameplay screen, and a results screen, all made using React Native and Expo.
+
+What was the most difficult part to implement?
+
+The biggest challenge was getting the game over screen to fit perfectly on all phone screen sizes without having to scroll through it. The screen has five different sections: a header, a results card, a creature info card, a progress tracker, and action buttons. It took a lot of trial and error to get all of these sections to fit perfectly on small and large phone screens at the same time.
+
+The trick to getting it right was removing the scroll view and using weights instead, where each section is assigned a weight based on how much space it should take up on the screen. I also created a scaling helper called sc() that will scale font sizes, spacing, and padding based on screen widths, ensuring everything is in proportion on any screen size.
+
+Animations on this screen were also challenging, with cards sliding in, a floating emoji, a progress bar filling up, star ratings, and a 60-particle confetti explosion when you win, all happening without slowing the app down.
+
+What would you improve with more time?
+
+The biggest addition would be the addition of a global leaderboard, where users can compete against each other instead of competing against their personal best score. At the moment, the high score is only saved on the device itself. The other addition would be more variety in the gameplay, such as speed boosts or zones where the enemies are smaller, as the difficulty increases in one straight line at the moment. The final addition would be to publish it on the Google Play Store and Apple App Store, where real users could download and play it.
 > *Evolve or go extinct.*
 
 A fast-paced mobile game where you tap to evolve your species through 20 stages of life — from a single-celled microbe all the way to modern human. One wrong move and your species is gone.
@@ -100,7 +122,7 @@ eas build -p android --profile preview
 
 Built solo by **[Nicole James S. Landoy]**
 
-- GitHub: [@yourusername](https://github.com/landoynicole4-design)
+- GitHub: [@landoynicole4@gmail.com](https://github.com/landoynicole4-design)
 
 ---
 
